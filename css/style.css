@@ -1,0 +1,151 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+img{
+  border: 0;
+}
+ul, ol{
+  list-style-type: none;
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: line-through;
+}
+@font-face {
+  font-family: ubu;
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
+body{
+  font-family: 'Ubuntu', sans-serif; 
+  overflow-x: hidden;
+}
+.clr{
+  clear: both;
+}
+/* header_part start */
+.header_part{
+  background-color: #4D6299;
+  padding: 4px 0 4px;
+}
+.top_right_btn{
+  border: none!important;
+}
+.top_right_btn img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.top_right_btn ul li a{
+  font-size: 14px;
+}
+.top_right_btn ul li a i{
+  margin-right: 5px;
+}
+/* header_part end */
+/* sidebar_part start */
+.sidebar_part{
+  background-color: #252c34;
+  height: 88vh;
+  padding-left: 0;
+  padding-right: 0;
+}
+.user_part{
+  padding: 20px 0 15px;
+  border: 1px solid #17181F;
+  text-align: center;
+}
+.user_part img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+.user_part h5{
+  color: #ccc;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.user_part p{
+  font-size: 12px;
+  color: #ccc;
+  line-height: 15px;
+}
+.user_part p i{
+  color: green;
+}
+.menu ul{
+  padding-left: 0;
+}
+.menu ul li a{
+  color: #ccc;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 40px;
+  display: block;
+  border-bottom: 1px solid #17181F;
+  padding-left: 10px;
+  transition: all linear 0.5s;
+  text-decoration: none;
+}
+.menu ul li:hover a{
+  color: #4D6299;
+}
+.menu ul li a i{
+  margin-right: 5px;
+}
+.breadcumb_part{
+  background-color: #f5f5f5;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 20px;
+}
+.bread ul{
+  padding: 0;
+  margin: 0;
+  padding-left: 15px;
+}
+.bread ul li{
+  float: left;
+}
+.bread ul li a{
+  font-size: 14px;
+  line-height: 45px;
+  color: #222222;
+  padding-right: 5px;
+  display: block;
+  text-decoration: none;
+}
+.bread ul li a i{
+  font-size: 13px;
+  padding-right: 5px;
+}
+.welcome_part{
+  line-height: 30px;
+}
+.welcome_part p span{
+  font-weight: 700;
+}
+/* sidebar_part end */
+/* footer_part start */
+.footer_part{
+  background-color: #16171D;
+}
+.copyright p{
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 60px;
+}
+.copyright p a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* footer_part end */
